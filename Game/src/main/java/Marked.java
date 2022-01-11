@@ -7,6 +7,11 @@ public class Marked extends JButton {
         setBackground(Color.GREEN);
     }
 
+    Marked(){
+        setPreferredSize(new Dimension(200,200));
+        setBackground(Color.GREEN);
+    }
+
     Marked(int x,int y, int player){
         if(player==1) {
             setBounds(x, y, 200, 200);

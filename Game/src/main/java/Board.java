@@ -3,41 +3,47 @@ import java.awt.*;
 
 public class Board extends JFrame {
     Board() {
+        //JPanel pabel = new JPanel(new GridLayout(3,2));
+
+        GridLayout board = new GridLayout(4,3);
         Image icon = Toolkit.getDefaultToolkit().getImage("src/main/resources/icon.png");
         setIconImage(icon);
-
-        Box vBoxContent = Box.createVerticalBox();
-        vBoxContent.setBackground(Color.WHITE);
-        vBoxContent.setOpaque(true);
 
         Box hBoxName = Box.createHorizontalBox();
         hBoxName.add(new TextLabel(0,0,"Player: 1"));
         hBoxName.add(new TextLabel(0,50,"Mark: X"));
-        vBoxContent.add(hBoxName);
+        hBoxName.setBackground(Color.WHITE);
+        hBoxName.setOpaque(true);
+        board.add(hBoxName);
 
         Box L1 = Box.createHorizontalBox();
-        Marked marked=new Marked(0,60);
+        L1.setBackground(Color.green);
+        Marked marked=new Marked();
         L1.add(marked);
         L1.add(marked);
         L1.add(marked);
-        vBoxContent.add(L1);
+        add(L1);
 
         Box L2 = Box.createHorizontalBox();
+        L2.setBackground(Color.pink);
         L2.add(marked);
         L2.add(marked);
         L2.add(marked);
-        vBoxContent.add(L2);
+        add(L2);
 
         Box L3 = Box.createHorizontalBox();
+        L3.setBackground(Color.blue);
         L3.add(marked);
         L3.add(marked);
         L3.add(marked);
-        vBoxContent.add(L3);
+        add(L3);
 
-        add(vBoxContent);
+
+        //setBorder(BorderFactory.createEmptyBorder(2,2,2,2));
+
 
         setSize(600, 700);
-        setLayout(new FlowLayout());
+        setLayout(board);
         setLocation(500, 75);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
