@@ -14,7 +14,7 @@ public class Board extends JFrame {
         hBoxName.add(new TextLabel(0,50,"Mark: X"));
         hBoxName.setBackground(Color.WHITE);
         hBoxName.setOpaque(true);
-        board.add(hBoxName);
+        add(hBoxName);
 
         Box L1 = Box.createHorizontalBox();
         L1.setBackground(Color.green);
