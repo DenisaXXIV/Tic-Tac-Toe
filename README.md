@@ -4,6 +4,6 @@ Tic-Tac-Toe is a simple and fun game for 2 players, X and O. It is played on a 3
 
 Tic-Tac-Toe is a long beloved classic pen and paper or board game for two players. Variations of Tic Tac Toe have been played since the Roman Empire and 3 in a row games can be traced all the way back to ancient Egypt!
 
-##Images
+## Images
 
 <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene1.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/to.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene2.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/to.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene2-2.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/to.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene3.png" height="400px">
