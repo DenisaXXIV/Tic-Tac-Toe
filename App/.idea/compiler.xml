@@ -13,4 +13,9 @@
       <module name="Tic-Tac-Toe" target="17" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Tic-Tac-Toe" options="" />
+    </option>
+  </component>
 </project>
