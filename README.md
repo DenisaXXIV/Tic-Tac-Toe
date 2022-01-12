@@ -6,5 +6,4 @@ Tic-Tac-Toe is a long beloved classic pen and paper or board game for two player
 
 ##Images
 
-<img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene1.png" height="500px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/to.png" height="500px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene2.png" height="500px">
-<img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene2-2.png" height="500px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/to.png" height="500px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene3.png" height="500px">
+<img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene1.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/to.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene2.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/to.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene2-2.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/to.png" height="400px"> <img src="https://github.com/DenisaXXIV/Tic-Tac-Toe/blob/master/src/Scene3.png" height="400px">
