@@ -19,6 +19,7 @@ public class GameController {
             {0, 0, 0}};
     String player1;
     String player2;
+    int nrMoves=0;
 
     @FXML
     private Pane GameView;
@@ -81,7 +82,13 @@ public class GameController {
     private Button playAgain;
 
     @FXML
+    private Button playAgain1;
+
+    @FXML
     private AnchorPane principalPane;
+
+    @FXML
+    private Pane tieView;
 
     @FXML
     void Again(MouseEvent event) {
@@ -187,6 +194,17 @@ public class GameController {
 
     void VerifyMatrix(int[][] matrix) {
         boolean win = false;
+        boolean tie=true;
+
+        nrMoves++;
+
+
+        if(nrMoves==9){
+            GameView.setVisible(false);
+            tieView.setVisible(true);
+            return;
+        }
+
 
         if (matrix[0][0] == matrix[0][1] && matrix[0][0] == matrix[0][2] && matrix[0][2] != 0) {
             win = true;
